@@ -64,4 +64,8 @@ Steviashop::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+  ENV['S3_KEY']='AKIAJ3WRECOHI43T4FGQ'
+  ENV['S3_SECRET']='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'
+  ENV['S3_BUCKET']='stevia2sweet'
+  Refinery::Core.config.s3_backend = true
 end
