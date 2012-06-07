@@ -41,7 +41,8 @@ gem 'jquery-rails'
 
 # Refinery CMS
 gem 'refinerycms', '~> 2.0.0'
-
+gem 'fog'
+gem 'stevia2sweet'
 # Specify additional Refinery CMS Extensions here (all optional):
 gem 'refinerycms-i18n', '~> 2.0.0'
 gem 'refinerycms-blog', '~> 2.0.0'
