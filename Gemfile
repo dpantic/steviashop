@@ -9,8 +9,8 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-gem 'unicorn'
-#gem 'thin'
+#gem 'unicorn'
+gem 'thin'
 group :production do
   gem 'pg'
 end
