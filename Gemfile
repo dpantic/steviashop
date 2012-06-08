@@ -8,9 +8,13 @@ gem 'rails', '3.2.5'
 group :development, :test do
   gem 'sqlite3'
 end
+
+gem 'thin'
 group :production do
   gem 'pg'
 end
+
+# gem 'aws-s3', :require => 'aws/s3'
 
 # Gems used only for assets and not required
 # in production environments by default.
