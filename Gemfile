@@ -15,8 +15,9 @@ group :production do
   gem 'pg'
 end
 #gem 'asset_sync'
-#gem 'aws-s3'
-gem 'aws-s3', :require => 'aws/s3'
+gem 'aws-s3'
+#gem 'aws-s3', :require => 'aws/s3'
+gem 'fog'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -49,7 +50,6 @@ gem 'jquery-rails'
 
 # Refinery CMS
 gem 'refinerycms', '~> 2.0.0'
-gem 'fog'
 
 # Specify additional Refinery CMS Extensions here (all optional):
 gem 'refinerycms-i18n', '~> 2.0.0'
