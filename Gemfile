@@ -13,6 +13,7 @@ gem 'thin'
 group :production do
   gem 'pg'
 end
+gem 'asset_sync'
 
 # gem 'aws-s3', :require => 'aws/s3'
 
