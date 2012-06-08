@@ -67,5 +67,5 @@ Steviashop::Application.configure do
   # ENV['S3_KEY']='AKIAJ3WRECOHI43T4FGQ'
   # ENV['S3_SECRET']='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'
   # ENV['S3_BUCKET']='stevia2sweet'
-  # Refinery::Core.config.s3_backend = true
+   Refinery::Core.config.s3_backend = true
 end
