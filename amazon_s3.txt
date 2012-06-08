@@ -1,0 +1,8 @@
+export S3_KEY='AKIAJ3WRECOHI43T4FGQ'
+export S3_SECRET='tfmEmCmKHy89LF8c1nDOqVnV1Sze9uoaSypxkxAs'
+export S3_BUCKET='stevia2sweet'
+
+$ export S3_REGION='fill_in_your_buckets_region_here'
+default ‘us-east-1’
+
+heroku config:add S3_BUCKET=stevia2sweet S3_KEY=AKIAJ3WRECOHI43T4FGQ S3_SECRET=tfmEmCmKHy89LF8c1nDOqVnV1Sze9uoaSypxkxAs
