@@ -35,5 +35,5 @@ Steviashop::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
   
- Refinery::Core.s3_backend = true
+ #Refinery::Core.s3_backend = true
 end
