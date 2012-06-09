@@ -44,7 +44,7 @@ Steviashop::Application.configure do
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server
   #config.action_controller.asset_host = "https://#{ENV['FOG_DIRECTORY']}.s3.amazonaws.com"
-  config.action_controller.asset_host = "https://#{ENV['stevia2sweet']}.s3.amazonaws.com"
+  config.action_controller.asset_host = "https://#{ENV['s2s']}.s3.amazonaws.com"
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
   # config.assets.precompile += %w( search.js )
