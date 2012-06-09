@@ -16,6 +16,7 @@ group :production do
 end
 gem 'aws-s3'
 gem 'fog'
+
 #gem 'aws-s3', :require => 'aws/s3'
 #gem 'asset_sync'
 
